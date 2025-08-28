@@ -1,5 +1,5 @@
 ## ClockBar
-A simple Burp Suite extension that shows a clock at the bottom of the interface.
+A simple Burp Suite extension that shows a clock at the status bar.
 
 ## Installation
 1. Download the [JAR extension file](https://github.com/luqmanhy/burp-clockbar/releases).
