@@ -65,7 +65,7 @@ public class BurpExtender implements IBurpExtender {
     // Start a timer to update the clock every second
     private void startClockUpdater() {
         timer = new Timer(1000, e -> {
-            String dateTime = new SimpleDateFormat("EEE dd MMM HH:mm:ss").format(new Date());
+            String dateTime = new SimpleDateFormat("EEE dd MMM yyyy HH:mm:ss z").format(new Date());
             clockLabel.setText("⏱ " + dateTime);
         });
         timer.start();
